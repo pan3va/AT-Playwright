@@ -2,8 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
-header {
-    background-color: #333;
+header img{
+    height:350px;
+    width:1320px
 }
 header nav{
     text-align: center;
@@ -14,24 +15,89 @@ header nav ul {
 
 header nav ul li a{
     text-decoration: none;
-    color: #fff;
+    color: black;
 }
 
 main{
     text-align: center;
 }
+main section img{
+    width: 350px;
+    padding: 20px;
+    color: rgba(240, 125, 67, 255);
+    padding: 20px;
 
-main .Description p{
+}
+
+main .Description {
     width: 500px;
 }
 main .image-countainer img{
-    width: 250px;
+width: 250px;
 height: 250px;
 }
+main .form-countainer{
+    width: 600px;
+    background-color: grey;
+    padding: 20px;
+    margin-right: 20px;
+    border: 1px solid #1d1b1b;
 
+}
+main .input-countainer{
+
+    width: 500px;
+    height: 250px;
+}
+main .checkbox-button{
+
+    width: 1500px;
+    font-style: italic;
+    font-size: large;
+   
+
+}
+main .submit-button{
+              width: 250px;
+              padding: 10px;
+              background-color:black;
+              color: white;
+              font-style: italic;
+              font-size: large;
+
+}
+main .table-countainer{
+    table {
+        color: white;
+        font-style: italic;
+        font-size: large;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td,
+      th {
+        border: 1px solid #1d1b1b;
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: grey;
+      }
+
+}
 footer{
     text-align: center;
     background-color: #333;
+    height: 55px;
+    color: wheat;
+}
+footer a img{
+    width: 30px; 
+    height: 30px;
+    padding-right: 10px"
+
 }
 footer p{
     color:#fff
