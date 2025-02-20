@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>AT Playwright Typescript</title>
+    
+  <style>
+        @font-face {
+            font-family: 'NotoSans_online_security'; 
+            src: url(chrome-extension://llbcnfanfmjhpedaedhbcnpgeepdnnok/assets/fonts/noto-sans-regular.woff);
+        }
+
+        @font-face {
+            font-family: 'NotoSans_medium_online_security'; 
+            src: url(chrome-extension://llbcnfanfmjhpedaedhbcnpgeepdnnok/assets/fonts/noto-sans-medium.ttf);
+        }
+
+        @font-face {
+            font-family: 'NotoSans_bold_online_security'; 
+            src: url(chrome-extension://llbcnfanfmjhpedaedhbcnpgeepdnnok/assets/fonts/noto-sans-bold.woff);
+        }
+
+        @font-face {
+            font-family: 'NotoSans_semibold_online_security'; 
+            src: url(chrome-extension://llbcnfanfmjhpedaedhbcnpgeepdnnok/assets/fonts/noto-sans-semibold.ttf);
+        }
+</style><link rel="stylesheet" href="./AT Playwright Typescript_files/styles.css"></head>
+  <body>
+    <header>
+      <img src="./AT Playwright Typescript_files/headerBanner.png" alt="Банер">
+      <nav>
+        <ul>
+          <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+          <li><a href="http://127.0.0.1:5500/about.html">About</a></li>
+          <li><a href="http://127.0.0.1:5500/contacts.html">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Welcome to out page</h1>
+      <section class="search-bar">
+        <input type="=text" placeholder="Search.." fdprocessedid="lyb71r">
+        <button fdprocessedid="awvsvr">Search</button>
+      </section>
+      <br>
+      <section class="image-countainer">
+        <img alt="Test Image" src="./AT Playwright Typescript_files/image1.jpg">
+        <img alt="Test Image" src="./AT Playwright Typescript_files/image2.jpg">
+        <img alt="Test Image" src="./AT Playwright Typescript_files/image3.jpg">
+      </section>
+      <section class="Description">
+        <h3>Description</h3>
+        <p>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum."
+        </p>
+      </section>
+    </main>
+    <footer>
+      <a href="https://www.wikipedia.org/"><img src="./AT Playwright Typescript_files/wiki.jpg" alt="wikipedia"></a>
+      <a href="https://www.facebook.com/"><img src="./AT Playwright Typescript_files/facebook.jpg" alt="facebook"></a>
+      <a href="https://www.instagram.com/"><img src="./AT Playwright Typescript_files/instagram.jpg" alt="instagram"></a>
+      <a href="https://www.linkedin.com/"><img src="./AT Playwright Typescript_files/linkedin.jpg" alt="instagram"></a>
+      <p><strong>© All rights reserved</strong></p>
+    </footer>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span></body></html>
