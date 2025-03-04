@@ -88,3 +88,11 @@ let word:string="Orange";
 let startsWithA:boolean=word.startsWith("A")==true;
 console.log(`The word is ${word}. Is the word starts with 'A'?`,startsWithA);
 
+//Type Alias
+
+type PersonInfoType=string|number
+const personNameInf:personInfoType="Ivan";
+const personAgeInf:PersonInfoType=25;
+
+type Staty
+}
