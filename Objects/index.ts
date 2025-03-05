@@ -26,15 +26,15 @@ const animal: Animal = {
   name: "Sharo",
 };
 
-interface Cars{
-    color: string;
-    wheels: number;
-    transmission: "manual" |"automatic";
-    fuelType: "diesel"|"gasoline";
-    startEngine: ()=>string;
+interface Cars {
+  color: string;
+  wheels: number;
+  transmission: "manual" | "automatic";
+  fuelType: "diesel" | "gasoline";
+  startEngine: () => string;
 }
 
-const car:Cars = {
+const car: Cars = {
   color: "white",
   wheels: 4,
   transmission: "manual",
@@ -44,20 +44,20 @@ const car:Cars = {
   },
 };
 // get object keys= keys: [ 'color', 'wheels', 'transmission', 'fuelType', 'startEngine' ]
-const keys=Object.keys(car)
+const keys = Object.keys(car);
 
 // get object values:= values: [ 'white', 4, 'manual', 'diesel', [Function: startEngine] ]
-const values=Object.values(car)
+const values = Object.values(car);
 
 //object assign two objects in one
 
-const colorObj={
-    color:"black"
-}
+const colorObj = {
+  color: "black",
+};
 
-const backgroundObj={
-    background:"white"
-}
+const backgroundObj = {
+  background: "white",
+};
 
-const assignedObject=Object.assign({},colorObj,backgroundObj)
-console.log(assignedObject)
+const assignedObject = Object.assign({}, colorObj, backgroundObj);
+console.log(assignedObject);
